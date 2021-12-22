@@ -1,0 +1,36 @@
+{
+  "name": "ecom-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "latest",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-async-errors": "latest",
+    "express-fileupload": "latest",
+    "express-mongo-sanitize": "latest",
+    "express-rate-limit": "latest",
+    "helmet": "latest",
+    "http-status-codes": "latest",
+    "joi": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "validator": "latest",
+    "xss-clean": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "engines": {
+    "node": "17.x"
+  }
+}
