@@ -35,7 +35,6 @@ app.use(helmet())
 app.use(cors())
 app.use(xss())
 app.use(mongoSanitize())
-app.use(rate)
 
 app.use(morgan('combined'))
 app.use(express.json())
